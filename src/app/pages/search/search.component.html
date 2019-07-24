@@ -12,7 +12,7 @@
     </div>
     <div *ngIf="productoService.filtroNoFound" align="center">
         <h2>Sorry :( </h2>
-        <p>No se encontraror resultados</p>
+        <p>No se encontraron resultados</p>
     </div>
     <div *ngIf="!productoService.loadFiltro" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
         <a *ngFor="let item of productoService.productosFiltrados" [routerLink]="[ '/item', item.cod ]" class="animated fadeIn rk-item ae-masonry__item">

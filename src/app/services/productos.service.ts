@@ -54,6 +54,7 @@ export class ProductosService {
     });
     if (this.productosFiltrados.length > 0 ) {
       this.loadFiltro = false;
+      this.filtroNoFound = false;
     } else {
       this.loadFiltro = false;
       this.filtroNoFound = true;
