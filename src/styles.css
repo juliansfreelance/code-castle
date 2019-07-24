@@ -1,12 +1,10 @@
+
 @charset "UTF-8";
 
-/*!
- * animate.css -https://daneden.github.io/animate.css/
- * Version - 3.7.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2019 Daniel Eden
- */
+svg path,
+svg rect{
+  fill: #2980b9;
+}
 
 @-webkit-keyframes bounce {
   from,

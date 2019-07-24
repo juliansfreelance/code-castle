@@ -1350,13 +1350,13 @@ body {
 }
 
 .item-inside-1 {
-  background-image: url("../img/project-1.jpg");
+  /* background-image: url("../img/project-1.jpg"); */
   background-position: 50% 100%;
   background-size: 350%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .item-inside-1 {
-    background-image: url("../img/project-1h.jpg");
+    /* background-image: url("../img/project-1h.jpg"); */
   }
 }
 @media (min-width: 40em) {
@@ -1366,7 +1366,7 @@ body {
 }
 
 .post-inside-1 {
-  background-image: url("../img/post-1.jpg");
+  /* background-image: url("../img/post-1.jpg"); */
 }
 
 #layout-grid:checked ~ .rk-portfolio,
@@ -1967,7 +1967,7 @@ body {
   padding-top: .16rem;
 }
 .rk-menu__item {
-  color: #202020;
+  color: #a0a0a0;
   display: inherit;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1979,7 +1979,7 @@ body {
   padding-right: 0;
 }
 .rk-menu__item.active {
-  color: #a0a0a0;
+  color: #202020;
 }
 .rk-menu__link {
   padding-bottom: 4.2rem;

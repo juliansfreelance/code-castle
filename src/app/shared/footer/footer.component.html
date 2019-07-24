@@ -2,11 +2,14 @@
   <div class="ae-grid ae-grid--collapse">
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
       <ul class="rk-menu rk-footer-menu">
-        <li class="rk-menu__item">
+        <li routerLinkActive="active" class="rk-menu__item">
           <a routerLink="about" class="rk-menu__link">Nosotros</a>
         </li>
+        <li routerLinkActive="active" class="rk-menu__item">
+            <a routerLink="home" class="rk-menu__link">Inicio</a>
+          </li>
       </ul>
-      <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder"> {{anio}} JULIAN'S PORTAFOLIO </span>All Right Reserved.</p>
+      <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder"> {{anio}} {{_servicio.info.titulo}} </span>All Right Reserved.</p>
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center">
       <a target="_blank" [href]="_servicio.info.facebook" class="rk-social-btn ">
